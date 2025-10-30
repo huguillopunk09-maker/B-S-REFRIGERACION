@@ -1,1 +1,106 @@
-# B-S-REFRIGERACION
+# B-S-REFRIGERACION<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B&S Servicio Técnico en Refrigeración</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="description" content="B&S Servicio Técnico en Refrigeración ofrece servicios de reparación y mantenimiento de sistemas de refrigeración. Contáctenos para más información.">
+
+    <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a B&S Servicio Técnico en Refrigeración</h1>
+        <img src="imagenes/banner.jpeg" alt="Banner técnico B&S" width="100%" style="border-radius: 10px;">
+    </header>
+
+    <section>
+        <h2>¿Quiénes Somos?</h2>
+        <p>Nos especializamos en reparación de heladeras, freezers y aires acondicionados. Nuestro equipo está capacitado para resolver problemas técnicos con rapidez y eficiencia.</p>
+        <img src="imagenes/trabajo1.jpeg" alt="Técnico instalando aire acondicionado" width="100%">
+    </section>
+
+    <section>
+        <h2>Servicios de Mantenimiento Preventivo</h2>
+        <p>Ofrecemos recomendaciones para evitar futuras averías y prolongar la vida útil de tus equipos.</p>
+        <img src="imagenes/trabajo2.jpeg" alt="Mantenimiento de unidad exterior" width="100%">
+    </section>
+
+    <section>
+        <h2>Problemas Comunes</h2>
+        <p>Detectamos y solucionamos pérdida de temperatura, acumulación de hielo, fugas y ruidos extraños.</p>
+        <img src="imagenes/trabajo3.jpeg" alt="Diagnóstico con manómetro" width="100%">
+    </section>
+
+    <section>
+        <h2>Reparación Rápida y Confiable</h2>
+        <p>Respondemos de inmediato con repuestos de calidad y técnicas avanzadas.</p>
+        <img src="imagenes/trabajo4.jpeg" alt="Reparación de heladera comercial" width="100%">
+    </section>
+
+    <section>
+        <h2>Galería de Trabajos Realizados</h2>
+        <div class="galeria">
+            <a href="imagenes/trabajo1.jpeg" data-lightbox="trabajos" data-title="Instalación de aire acondicionado">
+                <img src="imagenes/trabajo1.jpeg" alt="Instalación de aire acondicionado">
+            </a>
+            <a href="imagenes/trabajo2.jpeg" data-lightbox="trabajos" data-title="Carga de gas refrigerante">
+                <img src="imagenes/trabajo2.jpeg" alt="Carga de gas refrigerante">
+            </a>
+            <a href="imagenes/trabajo3.jpeg" data-lightbox="trabajos" data-title="Reparación de heladera">
+                <img src="imagenes/trabajo3.jpeg" alt="Reparación de heladera">
+            </a>
+            <a href="imagenes/trabajo4.jpeg" data-lightbox="trabajos" data-title="Medición eléctrica con pinza amperométrica">
+                <img src="imagenes/trabajo4.jpeg" alt="Medición eléctrica con pinza amperométrica">
+            </a>
+            <a href="imagenes/trabajo5.jpeg" data-lightbox="trabajos" data-title="Unidad exterior en mantenimiento">
+                <img src="imagenes/trabajo5.jpeg" alt="Unidad exterior en mantenimiento">
+            </a>
+            <a href="imagenes/trabajo6.jpeg" data-lightbox="trabajos" data-title="Evaporador en revisión">
+                <img src="imagenes/trabajo6.jpeg" alt="Evaporador en revisión">
+            </a>
+        </div>
+    </section>
+
+    <section>
+        <h2>Servicios Ofrecidos</h2>
+        <ul>
+            <li>Reparación de sistemas de refrigeración</li>
+            <li>Mantenimiento preventivo</li>
+            <li>Instalación de nuevos equipos</li>
+            <li>Asesoramiento técnico</li>
+        </ul>
+        <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; margin-top: 10px;">
+            <strong>Horario de Atención:</strong> Lunes a sábados de 9:00 AM a 6:00 PM
+        </div>
+    </section>
+
+    <section style="background-color: #b3b1b1; padding: 10px; border-radius: 5px; margin-top: 10px;">
+        <h2>Contacto</h2>
+        <p>Puede contactarnos a través de los siguientes medios:</p>
+        <ul>
+            <li>Teléfono: 362-5238214</li>
+            <li>Email: huguillopunk@hotmail.com</li>
+        </ul>
+        <button onclick="window.open('https://wa.me/3625238214', '_blank')">WhatsApp</button>
+        <button onclick="window.open('https://www.facebook.com/Hugo Benedek', '_blank')">Facebook</button>
+        <button onclick="window.open('https://www.instagram.com/@hugobenedek', '_blank')">Instagram</button>
+        <button onclick="window.open('https://www.tiktok.com/@hugo.benedek', '_blank')">TikTok</button>
+    </section>
+
+    <article style="background-color: aquamarine; padding: 10px; border-radius: 5px; margin-top: 10px;">
+        <h3>Redes Sociales</h3>
+        <p>Síguenos para promociones y consejos de mantenimiento:</p>
+        <ul>
+            <li><a href="https://www.facebook.com/Hugo Benedek" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/@hugobenedek" target="_blank">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@hugo.benedek" target="_blank">TikTok</a></li>
+        </ul>
+    </article>
+</body>
+</html>
